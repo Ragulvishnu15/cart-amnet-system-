@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+#Project Overview
+---------------
+ This e-commerce application allows users to browse products, add items to a shopping cart, and proceed to checkout.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Features
+-------------------
+* Product Listing: Displays available products with images and prices.
+* Shopping Cart: Allows users to add/remove products and update quantities.
+* Checkout Process: Users can proceed to a checkout page after reviewing their cart.
+* Contact Page: Provides contact information.
 
-## Available Scripts
+#Technologies
+------------------
+Frontend:
 
-In the project directory, you can run:
+* React.js
+* React Router for navigation
+* React Redux for state management
+* CSS for styling
+* Phosphor Icons for icons
 
-### `npm start`
+#Prerequisites
+--------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Node.js (version 14 or later)
+* npm (comes with Node.js)
+  
+# Installed Apps
+---------------------------
+* React Router DOM
+* React Redux
+* Redux Toolkit
+* React Slick (for carousels)
+* Slick Carousel (CSS styles for React Slick)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Installed Commands
+-------------
+npm install react-router-dom react-redux @reduxjs/toolkit react-slick slick-carousel
 
-### `npm test`
+#Backend Setup
+-------------
+1.Set up a simple Node.js/Express server.
+2.Create API routes for product retrieval, cart management, etc.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+mkdir backend
+cd backend
+npm init -y
+npm install express cors mongoose  # Install backend dependencies
 
-### `npm run build`
+#Frontend Setup
+-----------
+1.Navigate to your project directory:
+cd "C:\Users\Jayaprabha\cart"
+2.Install the necessary packages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#How to Run the Application
+---------------------
+1.Open your terminal or command prompt.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd "C:\Users\Jayaprabha\cart"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+npm start
+2.Open your browser and go to http://localhost:3000 to view your application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#ScreenShort output
+#home page
+![Screenshot 2024-10-14 213850](https://github.com/user-attachments/assets/fc280327-f60d-4c12-83aa-884ad3994d6e)
+# view product
+![Screenshot 2024-10-14 213912](https://github.com/user-attachments/assets/0fb7bbcc-b61e-4f53-bc47-6f5347321fe3)
+#your cart item
+![Screenshot 2024-10-14 213936](https://github.com/user-attachments/assets/9665ac68-4e4b-41ad-b4e1-05d2f4db4c84)
+#add the product and add item
+![Screenshot 2024-10-14 214011](https://github.com/user-attachments/assets/87b76f27-97fd-4e0e-8d9e-367e280128b8)
+#remove the card
+![Screenshot 2024-10-14 214030](https://github.com/user-attachments/assets/6a3a8921-14bc-46c1-86d1-c7de85d71368)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2024-10-14 214046](https://github.com/user-attachments/assets/0f626b3f-f86d-441d-bfa9-04d2c32f1bb8)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

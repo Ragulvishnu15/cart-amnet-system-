@@ -50,14 +50,14 @@ npm install express cors mongoose  # Install backend dependencies
 #Frontend Setup
 -----------
 1.Navigate to your project directory:
-cd "C:\Users\Jayaprabha\cart"
+cd "C:\Users\Ragulvishnu\cart"
 2.Install the necessary packages
 
 #How to Run the Application
 ---------------------
 1.Open your terminal or command prompt.
 
-cd "C:\Users\Jayaprabha\cart"
+cd "C:\Users\Ragulvishnu\cart"
 
 npm install
 
